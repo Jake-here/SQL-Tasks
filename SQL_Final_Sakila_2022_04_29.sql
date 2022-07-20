@@ -299,18 +299,18 @@ from customers;
 -- 15.
 /*
 Write a SELECT quesry, that would return Your name as a value in a column called 'Name',
-a column called 'MySQL course' with the value 'Very Good', and a column 'Points' with the number of point you think you got on this test.
+a column called 'MySQL_course' with the value 'Very_Good', and a column 'Points' with the number of point you think you got on this test.
 (1pt);
 */
 
 CREATE
-TEMPORARY TABLE Kurso_rezultatai
-(vardas VARCHAR(55) NOT NULL,
-VCS_MySQL_kursas VARCHAR(55) NOT NULL,
-Surinkau_taškų INT NOT NULL);
+TEMPORARY TABLE Course_Results
+(name VARCHAR(55) NOT NULL,
+MySQL_course VARCHAR(55) NOT NULL,
+Points INT NOT NULL);
 
-INSERT INTO Kurso_rezultatai (vardas, VCS_MySQL_kursas, Surinkau_taškų)
-VALUES ('Jakūbas', 'Labai patiko', 99);
+INSERT INTO Course_Results (name, MySQL_course, Points)
+VALUES ('Jakūbas', 'Very Good', 99);
 
 select *
-from Kurso_rezultatai;
+from Course_Results;
