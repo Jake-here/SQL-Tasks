@@ -2,10 +2,10 @@
 
 * This was a final test for MySQL course
 * Performed different queries and subqueries, including:
-- returning data, 
-- data filtering 
-- different table joins
-- creating a new table
+1. returning data, 
+2. data filtering 
+3. different table joins
+4. creating new tables
 
 ## Code and Resources used:
 * MySQL Platform
